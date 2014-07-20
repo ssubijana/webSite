@@ -4,7 +4,7 @@
 
     height : 100vh;
 
-    text-indent : -9999px;
+    //text-indent : -9999px;
 
     background-attachment : fixed;
     background-position   : top center;
@@ -15,13 +15,13 @@
     }
   }
   
-  .px__landscape1, .px__landscape3 {
+  .px__landscape1, .px__landscape4 {
     height : 100vh;
   }
   
   .px__landscape1 {
     background-image : url(
-      ../images/home_landscape.jpg
+      ../images/home_landscape1.jpg
     );
   }
 
@@ -29,11 +29,39 @@
     background-image : url(
       ../images/home_landscape2.jpg
     );
-  }
+  } 
 
   .px__landscape3 {
     background-image : url(
       ../images/home_landscape3.jpg
     ); 
   }
+
+  .px__landscape4 {
+    background-image : url(
+      ../images/home_landscape4.jpg
+    ); 
+  }
+}
+.parallax h2 {
+  position: relative;
+  top: 50%;
+}
+
+.px__landscape1 h2, .px__landscape4 h2 {
+  top: 20%;
+}
+
+.px__landscape3 h2 {
+  float: right;
+}
+
+.hsContent h2  {
+  color: #fff8de;
+  padding: 10px 5px;
+  font-size: 35px;
+  line-height: 38px;
+  margin-bottom: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
