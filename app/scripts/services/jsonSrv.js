@@ -5,7 +5,7 @@
     .factory('jsonSrv', ['$http', function($http) {
     
     function getCv(){
-      return $http.get('../json/cv.json')
+      return $http.get('./../json/cv.json')
     }
     return {
       //Public functions
