@@ -18,7 +18,7 @@ angular.module('webApp', [
       })
       .when('/cv', {
         templateUrl: 'views/cv.html',
-        controller: 'MainCtrl'
+        controller: 'CurriculumVitaeController'
       })
       .otherwise({
         redirectTo: '/'

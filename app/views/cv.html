@@ -1,29 +1,83 @@
 
 <div id="main" class="jumbotron main-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="/images/profile.jpg" alt="My Self" class="img-thumbnail my-image">
-            <h1>Sara Subijana</h1>
-            <p>Software developer<br/> <em>@Sara_Subidon</em></p>
-          </div>
-          <div class="col-lg-6">
-            <h2>&nbsp;</h2>
-            <p>Porque la vida es sólo un cuento que hay que vivir en el momento </p>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="/images/profile.jpg" alt="My Self" class="img-thumbnail my-image">
+        <h1>Sara Subijana</h1>
+        <p>Software developer<br/> <em>@Sara_Subidon</em></p>
+      </div>
+      <div class="col-lg-6">
+        <h2>&nbsp;</h2>
+        <p class="coolText">"La batalla de la vida no siempre la gana el hombre más fuerte, o el más ligero, porque tarde o temprano, el hombre que gana es aquel que cree poder hacerlo."</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container marketing">
+  <div class="row headers-row">
+    <div class="col-lg-2 central">
+      <a ng-click="loadContent('profile')">
+        <span class="glyphicon glyphicon-leaf head-image green img-rounded"></span>
+        <h2 class="head-image-text">Profile</h2>
+      </a>
+    </div>
+    <div class="col-lg-2 central">
+      <a href="#education">
+        <span class="glyphicon glyphicon-book head-image yellow img-rounded"></span>
+        <h2 class="head-image-text">Education</h2>
+      </a>
+    </div>
+    <div class="col-lg-2 central">
+      <a href="#work">
+        <span class="glyphicon glyphicon-wrench head-image blue img-rounded"></span>
+        <h2 class="head-image-text">Work</h2>
+      </a>
+    </div>
+    <div class="col-lg-2 central">
+      <a href="#skills">
+        <span class="glyphicon glyphicon-stats head-image light-blue img-rounded"></span>
+        <h2 class="head-image-text">Skills</h2>
+      </a>
+    </div>
+    <div class="col-lg-2 central">
+      <a href="#note-worthy">
+        <span class="glyphicon glyphicon-edit head-image purple img-rounded"></span>
+        <h2 class="head-image-text">Extra</h2>
+      </a>
+    </div>
+    <div class="col-lg-2 central">
+      <a href="#contact">
+        <span class="glyphicon glyphicon-user head-image black img-rounded"></span>
+        <h2 class="head-image-text">Contact</h2>
+      </a>
+    </div>
+  </div>
+  <section id="summary" class="">
+    <div class="container">
+      <div class="summary">
+        <h2 class="heading">{{header}}</h2>
+        <div ng-repeat="content in cvContent">
+          <p ng-show="content.type == 'text'">
+            {{ content.content_text}}
+          </p>
+          <div ng-show="content.type == 'list'" ng-repeat="elem in content.data">
+            <h3>{{ elem.title }}</h3>
+            <p>{{ elem.description }}</p>
           </div>
         </div>
       </div>
     </div>
-<div class="jumbotron">
-  <div class="row">
-    <div class="col-xs-5 col-md-4">
-        <img src="/images/profile.jpg" class="img-responsive img-rounded" alt="Responsive image">
-    </div>
-    <div class="col-xs-7 col-md-8">
-      <h1>Sara Subijana Gracia</h1>
-      <h2>Software developer</h2>
-    </div>
-  </div>
+  </section>
+</div>
+
+
+
+
+
+
+
+<!--<div class="jumbotron">  
   <div class="row cv-content" >
     <div class="col-xs-6 col-md-3 cv-menu">
       <ul class="nav nav-pills nav-stacked">
@@ -43,8 +97,4 @@
       </div>
     </div>
   </div>
-</div>
-
-<div class="footer">
-  <p>♥ from the Yeoman team</p>
-</div>
+</div>-->
