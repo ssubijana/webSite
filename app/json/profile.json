@@ -1,13 +1,32 @@
 {
-	"header" : "Profile",	
+	"header" : "Sobre mí",	
 	"data" : [
 		{
 			"type" : "text",
-			"content_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat convallis rhoncus. Cras gravida cursus mi, non pharetra erat ornare non. Sed imperdiet commodo augue, nec consectetur dui cursus quis. Donec tempor vel risus a dapibus. Mauris ut sapien nec lorem placerat facilisis. Quisque aliquam enim a mattis bibendum. Fusce adipiscing sed lacus ac aliquam. Sed semper nunc massa, sodales faucibus justo pulvinar a. Cras fringilla orci sit amet tincidunt aliquet. Morbi hendrerit odio eros, sed vehicula libero egestas quis. Donec id enim a ipsum facilisis aliquet eget nec tellus. Phasellus viverra nunc vel ligula ornare, at adipiscing orci pellentesque."
+			"content_text" : "Soy desarrolladora software backend, especializada en tecnologías Java."
 		},
 		{
 			"type" : "text",
-			"content_text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat convallis rhoncus. Cras gravida cursus mi, non pharetra erat ornare non. Sed imperdiet commodo augue, nec consectetur dui cursus quis. Donec tempor vel risus a dapibus. Mauris ut sapien nec lorem placerat facilisis. Quisque aliquam enim a mattis bibendum. Fusce adipiscing sed lacus ac aliquam. Sed semper nunc massa, sodales faucibus justo pulvinar a. Cras fringilla orci sit amet tincidunt aliquet. Morbi hendrerit odio eros, sed vehicula libero egestas quis. Donec id enim a ipsum facilisis aliquet eget nec tellus. Phasellus viverra nunc vel ligula ornare, at adipiscing orci pellentesque."
+			"content_text" : "Siempre estoy en continuo aprendizaje. Ampliando mis conocimientos sobre <b>JavaScript y frameworks como AngularJS</b> y estudiando también nuevos lenguajes como <b>Swift</b>."
+		},
+		{
+			"type" : "text",
+			"content_text" : "Actualmente trabajo como consultora software en <u>Autentia</u>, donde trabajamos con:"
+		},
+		{
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "Java J2EE, Spring, MyBatis, Hibernate, Maven"
+				},
+				{
+					"item" : "Metodologías ágiles y buenas prácticas: Scrum, Kanban, TDD."
+				},
+				{
+					"item" : "Herramientas de integración continua y de calidad: Jenkins y Sonar"
+				}
+			]
 		}
+
 	]
 }

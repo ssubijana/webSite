@@ -1,0 +1,92 @@
+{
+	"header" : "Experiencia profesional",	
+	"data" : [		
+		{
+			"type" : "text",
+			"content_text" : "<h3>Idiomas</h3>"
+		},
+		{
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "Español (Lengua materna)."
+				},
+				{
+					"item" : "Inglés (Competencia profesional completa)."
+				}
+			]
+		},
+		{
+			"type" : "text",
+			"content_text" : "<h3>Competencias software</h3>"
+		},
+		{
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "Lenguajes de programación: .NET – C# (3.5), Java, ActionScript (Nivel experto)."
+				},
+				{
+					"item" : "JSF (Nivel medio)."
+				},
+				{
+					"item" : "Sprincg MVC (Nivel medio)."
+				},
+				{
+					"item" : "Spring Security para autenticación y autorización (Nivel medio)."
+				},
+				{
+					"item" : "OAuth y CAS para autenticación. (Nivel medio)."
+				},
+				{
+					"item" : "Desarrollo frontend con frameworks como AngularJS (nivel básico), YUI y JQuery (nivel avanzado)."
+				},
+				{
+					"item" : "Sistemas operativos: Windows, Mac OS X y Linux."
+				},
+				{
+					"item" : "Control de versiones: Subversion (Nivel experto), Git (Nivel medio)."
+				},
+				{
+					"item" : "Desarrollo aplicaciones flash: ActionScript, Adobe Flex (nivel experto)."
+				},
+				{
+					"item" : "Build de aplicaciones con Maven (Nivel avanzado)."
+				},
+				{
+					"item" : "Bases de datos: Oracle (nivel avanzado), Hibernate, MyBatis (nivel medio) y MySQL (nivel básico)."
+				},
+				{
+					"item" : "Bases de datos NoSQL (nivel básico)."
+				},
+				{
+					"item" : "Trabajo con metodologías ágiles: Scrum y Kanban"
+				},
+				{
+					"item" : "Buenas prácticas con TDD y patrones de diseño."
+				},
+				{
+					"item" : "Desarrollo de pruebas unitarias y de integración: JUnit, Mockito, Hamcrest (nivel avanzado)."
+				}
+			]
+		},
+		{
+			"type" : "text",
+			"content_text" : "<h3>Otras competencias profesionales</h3>"
+		},
+		{			
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "Desarrollo con herramientas de planificación de tareas: JIRA, Stash, Confluence"
+				},
+				{
+					"item" : "Acostumbrada a trabajar en equipo"
+				},
+				{
+					"item" : "Soy una persona inquieta que intenta estar siempre actualizada. Interesada en mejorar día a día."
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,139 @@
+{
+	"header" : "Experiencia profesional",	
+	"data" : [
+		{
+			"type" : "text",
+			"content_text" : "<h3>Autentia Real Business Solutions [Febrero 2014 - Actualidad]</h3>"
+		},
+		{
+			"type" : "text",
+			"content_text" : "Desarrollo de aplicaciones software para clientes con tecnologías Java aplicando metodologías ágiles, buenas prácticas y patrones de diseño."
+		},
+		{
+			"type" : "text",
+			"content_text" : "Las herramientas con las que desarrollo son:"
+		},
+		{
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "<b>Java J2EE</b> como lenguaje de programación. "
+				},
+				{
+					"item" : "<b>Spring MVC, JSF</b> para desarrollo de aplicaciones web y servicios Rest."
+				},
+				{
+					"item" : "Buenas prácticas aplicando <b>patrones de diseño y desarrollo con TDD</b>."
+				},
+				{
+					"item" : "<b>MyBatis e Hibernate</b> para acceso a datos."
+				},
+				{
+					"item" : "Bases de datos <b>Oracle</b>."
+				},
+				{
+					"item" : "Proceso de build con <b>Maven</b>."
+				},
+				{
+					"item" : "Integración contínua con <b>Jenkins</b>."
+				},
+				{
+					"item" : "Control de calidad de código con <b>Sonar</b>."
+				}
+			]
+		},
+		{
+			"type" : "text",
+			"content_text" : "<h3>Babel Sistemas de Información [Octubre 2010- Febrero 2014]</h3>"
+		},
+		{
+			"type" : "text",
+			"content_text" : "Desarrollo de aplicaciones software para cliente del sector asegurador con tecnologías Java."
+		},
+		{
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "Desarrollo de un servicio para la detección de anomalías en los procesos de suscripción y declaración de siniestros y pólizas mediante la aplicación de una serie de reglas de negocio. Responsable directa del proyecto."
+				},
+				{
+					"item" : "Desarrollo de evolutivos y mantenimiento de un servicio call center para emisión de facturas."
+				},
+				{
+					"item" : "Comunicación directa con el cliente."
+				},
+				{
+					"item" : "Asesoramiento técnico en puesta a producción de nuevas versiones."
+				}
+			]
+		},		
+		{
+			"type" : "text",
+			"content_text" : "Las herramientas con las que desarrollé fueron:"
+		},
+		{
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "<b>Java J2EE</b> como lenguaje de programación. "
+				},
+				{
+					"item" : "<b>Struts 2.0 y Spring Core</b> para desarrollo de aplicaciones web."
+				},
+				{
+					"item" : "Bases de datos relacionales <b>Oracle</b>."
+				},
+				{
+					"item" : "JavaScript para la parte de vista con YUI y jQuery."
+				},
+				{
+					"item" : "Proceso de build con <b>Maven</b>."
+				},
+				{
+					"item" : "Despliegues automatizados con <b>Jenkins</b>."
+				}
+			]
+		},
+		{
+			"type" : "text",
+			"content_text" : "<h3>Deloitte DxD [Julio 2009- Julio 2010]</h3>"
+		},
+		{
+			"type" : "text",
+			"content_text" : "Beca de desarrollo colaborativa con la Universidad de Zaragoza. Formé parte del equipo de desarrollo de una aplicación web para la gestión de la lógística y distribución del gas en varios países."
+		},
+		{
+			"type" : "text",
+			"content_text" : "Desempeñé las siguientes actividades:"
+		},
+		{
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "Mantenimiento de los servicios: gestión de incidencias y peticiones."
+				},
+				{
+					"item" : "Desarrollo de evolutivos y nuevas funcionalidades"
+				}
+			]
+		},		
+		{
+			"type" : "text",
+			"content_text" : "Las herramientas con las que desarrollé fueron:"
+		},
+		{
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "<b>C# .NET 3.5</b> como lenguaje de programación. "
+				},
+				{
+					"item" : "<b>ASP .NET y WCF</b> para desarrollo de aplicaciones web."
+				},
+				{
+					"item" : "Bases de datos relacionales <b>Oracle</b>."
+				}
+			]
+		}
+	]
+}

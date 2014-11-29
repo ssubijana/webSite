@@ -1,0 +1,72 @@
+{
+	"header" : "Educación",	
+	"data" : [
+		{
+			"type" : "text",
+			"content_text" : "Soy ingeniera informática superior titulada. Los centros donde he cursado mis estudios son:"
+		},
+		{
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "Centro Politécnico Superior (Universidad de Zaragoza) - 2004/2010"
+				},
+				{
+					"item" : "Danmarks Tekniske Universitet (Copenhage, Dinamarca) - Beca Erasmus en 2008"
+				}
+			]
+		},
+		{
+			"type" : "text",
+			"content_text" : "<h3>Certificados oficiales</h3>"
+		},
+		{
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "Oracle Certified Java Programmer 6"
+				},
+				{
+					"item" : "M101JS: MongoDB for Node.js Developers"
+				}
+			]
+		},
+
+		{
+			"type" : "text",
+			"content_text" : "<h3>Cursos de formación</h3>"
+		},
+		{
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "Desarrollo de aplicaciones para Android."
+				},
+				{
+					"item" : "Open source tools para desarrollo y gestión de proyectos."
+				},
+				{
+					"item" : "Construcción de aplicaciones RIA con Javascript."
+				},
+				{
+					"item" : "Desarrollo para Android."
+				},
+				{
+					"item" : "Struts 2.0."
+				},
+				{
+					"item" : "Hibernate 3.0 Avanzado."
+				},
+				{
+					"item" : "Programación funcional en Scala"
+				}
+			]
+		},
+
+		{
+			"type" : "text",
+			"content_text" : "Asisto frecuentemente a seminarios y ponencias de las comunidades de desarrollo <b>MadridJUG, MadridJS, MadriAgil y Betabeers</b>."
+		}
+
+	]
+}
