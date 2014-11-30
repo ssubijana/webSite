@@ -13,6 +13,10 @@ angular.module('webApp')
       loadJsonData(contentName);
     };
 
+    $scope.showContactInfo = function() {
+      alert('Hola');
+    };
+
     $scope.header = 'Profile';
     $scope.header = '';
     loadJsonData('profile')

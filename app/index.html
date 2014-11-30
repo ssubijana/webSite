@@ -6,13 +6,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-    <title></title>
+    <title>Sara Subijana</title>
+    <link rel="shortcut icon" type="image/jpeg" href="/favicon-jake.jpg"/>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/sass-bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
@@ -21,7 +23,7 @@
     <!-- endbuild -->
     <link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
   </head>
-  <body ng-app="webApp">
+  <body ng-app="webApp" ng-controller="MenuController">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -38,7 +40,7 @@
           <a class="navbar-brand" href="#">Sara Subijana</a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav" >
             <li>
               <a href="#">
                 <span class="glyphicon glyphicon-home"></span>
@@ -48,7 +50,7 @@
               <a ng-href="#/cv">CV</a>
             </li>
             <li>
-              <a ng-href="#">Contact</a>
+              <a ng-click="showContactInfo()">Contact</a>
             </li>
             <li>
               <a href="http://ssubijana.com/blog/" target="blank">Blog</a>
@@ -62,7 +64,31 @@
         </div>
       </div>
     </div>
-    
+    <div class="contact" ng-class="{active : isShowingContact}">
+      <div class="row">
+        <div class="col-xs-3">
+          <a class="contact-row" href="">
+            <span class="icon fa fa-linkedin-square"></span><span class="contact-title">Linkedin</span>
+          </a> 
+        </div>
+        <div class="col-xs-3">
+          <a class="contact-row" href="">
+            <span class="icon fa fa-linkedin-square"></span><span class="contact-title">Linkedin</span>
+          </a> 
+        </div>
+        <div class="col-xs-3">
+          <a class="contact-row" href="">
+            <span class="icon fa fa-linkedin-square"></span><span class="contact-title">Linkedin</span>
+          </a> 
+        </div>
+        <div class="col-xs-3">
+          <a class="contact-row" href="">
+            <span class="icon fa fa-linkedin-square"></span><span class="contact-title">Linkedin</span>
+          </a> 
+        </div>
+      </div>
+
+    </div>
 
     <!-- Add your site or application content here -->
     <div class="" ng-view=""></div>
@@ -98,6 +124,7 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="/scripts/app.js"></script>
         <script src="/scripts/controllers/cvController.js"></script>
+        <script src="/scripts/controllers/menuController.js"></script>
         <script src="/scripts/controllers/main.js"></script>
         <script src="/scripts/services/jsonSrv.js"></script>
         <!-- endbuild -->
