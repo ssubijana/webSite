@@ -1,0 +1,18 @@
+{
+	"header" : "Contacto",	
+	"data" : [
+		{
+			"type" : "text",
+			"content_text" : "Puedes seguirme en Twitter:"
+		},
+		{
+			"type" : "text",
+			"content_text" : "<a href='https://twitter.com/Sara_Subidon' target='_blank'>@Sara_Subidon</a>"
+		},
+		{
+			"type" : "text",
+			"content_text" : "Perfil de Linkedin:"
+		}
+
+	]
+}

@@ -1,0 +1,33 @@
+.contact{
+	transition: all 0.4s linear;
+	position: fixed;
+	top:0;
+	left: 0;
+	height: 0px;
+	width: 100%;
+	opacity: 0;
+	background: rgb(89, 19, 19);
+	z-index: 10;
+	color: white;
+	overflow:hidden;
+	&.active{
+		height: 120px;
+		opacity: 0.8;
+		padding: 70px;
+		padding-bottom: 10px
+	}
+
+	.icon{
+		margin-right: 10px;
+
+	}
+
+	.contact-row{
+		color: white;
+		text-decoration: none;
+		font-size: 20px;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}

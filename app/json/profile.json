@@ -1,0 +1,32 @@
+{
+	"header" : "Sobre mí",	
+	"data" : [
+		{
+			"type" : "text",
+			"content_text" : "Soy desarrolladora software backend, especializada en tecnologías Java."
+		},
+		{
+			"type" : "text",
+			"content_text" : "Siempre estoy en continuo aprendizaje. Ampliando mis conocimientos sobre <b>JavaScript y frameworks como AngularJS</b> y estudiando también nuevos lenguajes como <b>Swift</b>."
+		},
+		{
+			"type" : "text",
+			"content_text" : "Actualmente trabajo como consultora software en <u>Autentia</u>, donde trabajamos con:"
+		},
+		{
+			"type" : "list",
+			"content_list" : [
+				{
+					"item" : "Java J2EE, Spring, MyBatis, Hibernate, Maven"
+				},
+				{
+					"item" : "Metodologías ágiles y buenas prácticas: Scrum, Kanban, TDD."
+				},
+				{
+					"item" : "Herramientas de integración continua y de calidad: Jenkins y Sonar"
+				}
+			]
+		}
+
+	]
+}

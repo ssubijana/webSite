@@ -3,3 +3,7 @@ dist
 .tmp
 .sass-cache
 app/bower_components
+.DS_Store
+web.sublime-project
+web.sublime-workspace
+app/.DS_Store

@@ -5,27 +5,95 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <title>Sara Subijana</title>
+    <link rel="shortcut icon" type="image/jpeg" href="/site/favicon-jake.jpg"/>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/sass-bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/parallax.css">
     <!-- endbuild -->
+    <link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+     <base href="/" />
   </head>
-  <body ng-app="webApp">
+  <body ng-app="webApp" ng-controller="MenuController">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span> 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Sara Subijana</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav" >
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-home"></span>
+              </a>
+            </li> 
+            <li>
+              <a ng-href="#/cv">CV</a>
+            </li>
+            <li>
+              <a ng-click="showContactInfo()">Contact</a>
+            </li>
+            <li>
+              <a href="http://ssubijana.com/blog/" target="blank">Blog</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="https://github.com/ssubijana" target="blank">My Github projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="contact" ng-class="{active : isShowingContact}">
+      <div class="row">
+        <div class="col-xs-3">
+          <a class="contact-row" href="https://www.linkedin.com/pub/sara-subijana-gracia/86/346/a5a" target="_blank">
+            <span class="icon fa fa-linkedin-square"></span><span class="contact-title">Linkedin</span>
+          </a> 
+        </div>
+        <div class="col-xs-3">
+          <a class="contact-row" href="https://twitter.com/Sara_Subidon" target="_blank">
+            <span class="icon fa fa-twitter-square"></span><span class="contact-title">Twitter</span>
+          </a> 
+        </div>
+        <div class="col-xs-3">
+          <a class="contact-row" href="https://github.com/ssubijana" target="_blank">
+            <span class="icon fa fa-github-square"></span><span class="contact-title">GitHub</span>
+          </a> 
+        </div>
+        <div class="col-xs-3">
+          <a class="contact-row" href="https://plus.google.com/u/0/+SaraSubijana/posts" target="_blank">
+            <span class="icon fa fa-google-plus-square"></span>
+            <span class="contact-title">Google+</span>
+          </a> 
+        </div>
+      </div>
+
+    </div>
 
     <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+    <div class="" ng-view=""></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -56,9 +124,10 @@
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/services/jsonSrv.js"></script>
+        <script src="/scripts/app.js"></script>
+        <script src="/scripts/controllers/cvController.js"></script>
+        <script src="/scripts/controllers/menuController.js"></script>
+        <script src="/scripts/services/jsonSrv.js"></script>
         <!-- endbuild -->
 </body>
 </html>
