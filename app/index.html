@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
     <title>Sara Subijana</title>
-    <link rel="shortcut icon" type="image/jpeg" href="/favicon-jake.jpg"/>
+    <link rel="shortcut icon" type="image/jpeg" href="/site/favicon-jake.jpg"/>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/styles/parallax.css">
     <!-- endbuild -->
     <link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+     <base href="/site/" />
   </head>
   <body ng-app="webApp" ng-controller="MenuController">
     <!--[if lt IE 7]>
@@ -67,23 +68,24 @@
     <div class="contact" ng-class="{active : isShowingContact}">
       <div class="row">
         <div class="col-xs-3">
-          <a class="contact-row" href="">
+          <a class="contact-row" href="https://www.linkedin.com/pub/sara-subijana-gracia/86/346/a5a" target="_blank">
             <span class="icon fa fa-linkedin-square"></span><span class="contact-title">Linkedin</span>
           </a> 
         </div>
         <div class="col-xs-3">
-          <a class="contact-row" href="">
-            <span class="icon fa fa-linkedin-square"></span><span class="contact-title">Linkedin</span>
+          <a class="contact-row" href="https://twitter.com/Sara_Subidon" target="_blank">
+            <span class="icon fa fa-twitter-square"></span><span class="contact-title">Twitter</span>
           </a> 
         </div>
         <div class="col-xs-3">
-          <a class="contact-row" href="">
-            <span class="icon fa fa-linkedin-square"></span><span class="contact-title">Linkedin</span>
+          <a class="contact-row" href="https://github.com/ssubijana" target="_blank">
+            <span class="icon fa fa-github-square"></span><span class="contact-title">GitHub</span>
           </a> 
         </div>
         <div class="col-xs-3">
-          <a class="contact-row" href="">
-            <span class="icon fa fa-linkedin-square"></span><span class="contact-title">Linkedin</span>
+          <a class="contact-row" href="https://plus.google.com/u/0/+SaraSubijana/posts" target="_blank">
+            <span class="icon fa fa-google-plus-square"></span>
+            <span class="contact-title">Google+</span>
           </a> 
         </div>
       </div>
@@ -125,7 +127,6 @@
         <script src="/scripts/app.js"></script>
         <script src="/scripts/controllers/cvController.js"></script>
         <script src="/scripts/controllers/menuController.js"></script>
-        <script src="/scripts/controllers/main.js"></script>
         <script src="/scripts/services/jsonSrv.js"></script>
         <!-- endbuild -->
 </body>

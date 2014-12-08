@@ -1,5 +1,7 @@
 'use strict';
 
+
+
 angular.module('webApp', [
   'ngCookies',
   'ngResource',
@@ -10,11 +12,11 @@ angular.module('webApp', [
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        controller: 'MenuController'
       })
       .when('/main', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        controller: 'MenuController'
       })
       .when('/cv', {
         templateUrl: 'views/cv.html',

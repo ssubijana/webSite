@@ -37,9 +37,23 @@ h3 {
 
 body > .container {
   padding: 30px 15px 0px;
+
 }
+
+.photo-container {
+    width: auto;
+}
+
 .container .text-muted {
   margin: 20px 0;
+}
+
+.navbar {
+  .container {
+    width: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 #footer > .container {
@@ -55,10 +69,12 @@ code {
 .marketing {
   padding-right: 15px;
   padding-left: 15px;
+  &.container {
+    width: 1300px;
+  }
 }
 
-/* Center align the text within the three columns below the carousel */
- .central {
+.central {
   margin-bottom: 20px;
   text-align: center;
   padding: 10px;
@@ -88,6 +104,9 @@ code {
     padding: 10px;
     margin-right: 10px;
     float: left;
+  }
+  .glyphicon {
+    width: auto;
   }
   
 }
